@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools = "http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HealthAndTechnologyapp">
+        <activity
+            android:name=".ActInfoAdmin"
+            android:exported="true"
+            tools:ignore = "Instantiatable" />
+        <activity
+            android:name=".ActInfo"
+            android:exported="true"
+            tools:ignore = "Instantiatable" />
+        <activity
+            android:name=".ActListarCitasAdmin"
+            android:exported="true"
+            tools:ignore = "Instantiatable" />
+        <activity
+            android:name=".Citas"
+            android:exported="true"
+            tools:ignore = "Instantiatable" />
+        <activity
+            android:name=".Paciente"
+            android:exported="true"
+            tools:ignore = "Instantiatable" />
+        <activity
+            android:name=".ActListarPacientesAdmin"
+            android:exported="true"
+            tools:ignore = "Instantiatable" />
+        <activity
+            android:name=".ActIniciarSesion"
+            android:exported="true"
+            tools:ignore = "Instantiatable"/>
+        <activity
+            android:name=".ActPrincipalAdmin"
+            android:exported="true"
+            tools:ignore = "Instantiatable"/>
+        <activity
+            android:name=".ActIniciarSesionAdmin"
+            android:exported="true"
+            tools:ignore = "Instantiatable"/>
+        <activity
+            android:name=".ActPrincipalPaciente"
+            android:exported="true"
+            tools:ignore = "Instantiatable"/>
+        <activity
+            android:name=".ActListarCitas"
+            android:exported="true"
+            tools:ignore = "Instantiatable"/>
+        <activity
+            android:name=".ActNuevoPaciente"
+            android:exported="true"
+            tools:ignore = "Instantiatable"/>
+        <activity
+            android:name=".ActRegistrarCita"
+            android:exported="true"
+            tools:ignore = "Instantiatable"/>
+        <activity
+            android:name=".ActPrincipal"
+            android:exported="true"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
